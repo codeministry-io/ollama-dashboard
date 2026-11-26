@@ -60,3 +60,5 @@ htmlcov/
 
 # Project specific
 history.json
+# Session worktrees live inside the repository, never beside it.
+.worktrees/

@@ -4,7 +4,7 @@
 >
 > Upstream publishes no container image, so this fork adds one thing: a GitHub Actions
 > workflow that builds `docker/Dockerfile` for `linux/arm64` and pushes it to
-> `ghcr.io/codeministry/ollama-dashboard`. The application code is unchanged apart from two
+> `ghcr.io/codeministry-io/ollama-dashboard`. The application code is unchanged apart from two
 > Dockerfile lines (a `HEALTHCHECK` that called a `curl` the base image does not have, and
 > `PYTHONDONTWRITEBYTECODE` for a read-only root filesystem).
 >
